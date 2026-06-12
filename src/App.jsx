@@ -216,9 +216,9 @@ function App() {
       <footer className="footer-bar">
         <p className="footer-copyright">© 2026 PromPeter. Todos los derechos reservados.</p>
         <div className="footer-links">
-          <button className="link-btn" onClick={() => setShowTermsModal(true)}>Términos y Condiciones</button>
+          <a className="link-btn" href="./terms.html" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a>
           <span className="link-separator">•</span>
-          <button className="link-btn" onClick={() => setShowPrivacyModal(true)}>Política de Privacidad</button>
+          <a className="link-btn" href="./privacy.html" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
         </div>
       </footer>
 
